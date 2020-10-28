@@ -1,0 +1,256 @@
+body{
+    list-style-type: none;
+    font-family: 'Amiri', serif;
+}
+.ul-menu{
+    background-color: #333; 
+    color: white; 
+    list-style-type: none;
+    overflow: hidden;
+    text-align: center;
+    margin: ;
+}
+
+.li-menu{
+    float:right;
+}
+.p-menu {
+    font-size: 40px;
+    display: inline;
+}
+.a-menu{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: block;
+    padding: 17px;
+}
+.a-menu:hover{
+    background-color: black;
+}
+.colum{
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.me{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+}
+.pme{
+    font-size: 22px;
+}
+.imgtoasl{
+    width: 25px;
+    padding: 18px;
+}
+.imgtoasl:hover{
+    width: 30px;
+    background-color: ;
+}
+.left{
+    width: 20%;
+    float: left;
+    font-size: 20px;
+}
+.right{
+    width: 75%;
+    float: left;
+}
+.row{
+    padding: 10px;
+
+}
+.row::after{
+    display: table;
+    clear: both;
+    content: "";
+}
+.main-bar{
+    background-color: rgba(0, 0, 0, 0.034);
+    display: block;
+    height: 33px;
+}
+.main-bar span{
+    background-color:rgb(15, 185, 177);
+    height: 33px;
+    display: block;
+    color: white;
+}
+
+.javascrpt{
+    width: 40%;
+    animation:javascrpt 3s;
+}
+.Microsoft-Word{
+    width: 70%;   
+    animation: Microsoft 3s;
+}
+.Setting-Goals{
+    width: 40%;   
+    animation:Setting 3s;
+}
+.Leadership{
+    width: 45%;   
+    animation:Leadership 3s;
+}
+.Communication{
+    width: 40%;   
+    animation:Communication 3s;
+}
+.Teamwork{
+    width: 70%; 
+    animation:Teamwork 3s;
+}
+.HTML{
+    width: 30%; 
+    animation:HTML 3s;
+}
+.CSS{
+    width: 20%; 
+    animation:CSS 3s;    
+}
+
+@keyframes javascrpt {
+    0%{
+        width: 0%;
+        background-color: thistle;
+
+    }
+    100%{
+        width: 40%;
+        background-color: tomato;        
+    }
+}
+@keyframes Microsoft {
+    0%{
+        width: 0%;
+        background-color: thistle;
+
+    }
+    100%{
+        width: 70%;
+        background-color: tomato;        
+    }
+}
+@keyframes Setting {
+    0%{
+        width: 0%;
+        background-color: thistle;
+
+    }
+    100%{
+        width: 40%;
+        background-color: tomato;        
+    }
+}
+@keyframes Leadership {
+    0%{
+        width: 0%;
+        background-color: thistle;
+    }
+    100%{
+        width: 45%;
+        background-color: tomato;        
+    }
+}
+@keyframes Communication{
+
+    0%{
+        width: 0%;
+        background-color: thistle;
+    }
+    100%{
+        width: 40%;
+        background-color: tomato;        
+    }
+}
+@keyframes Teamwork {
+    0%{
+        width: 0%;
+        background-color: thistle;
+
+    }
+    100%{
+        width: 70%;
+        background-color: tomato;        
+    }
+}
+@keyframes HTML {
+    0%{
+        width: 0%;
+        background-color: thistle;
+    }
+    100%{
+        width: 30%;
+        background-color: tomato;        
+    }
+}
+@keyframes CSS {
+    0%{
+        width: 0%;
+        background-color: thistle;
+    }
+    100%{
+        width: 20%;
+        background-color: tomato;        
+    }
+}
+.hro{
+    padding: 0px;
+}
+
+.footer{
+    width: 100%;
+    height: 35px;
+    background-color: #333;
+    text-align: center;
+    color: white;
+    font-size: 28px;
+}
+.attheend{
+    font-size: 20px;
+
+}
+.name-html{
+    width: 300px;
+    float: right;
+}
+.imge-html{
+    width: 210px;
+}
+.imge-html:hover{
+    width: 212px ;
+}
+.h4shada{
+    text-align: center;
+}
+.shhadath1{
+    text-align: center;
+}
+.lastimgs{
+    width: 28px;
+    margin: 0px 4px;
+    
+}
+.divfotend{
+    display: inline-block;
+}
+@media screen and (max-width: 1200px){
+    .colum{
+        width:100%;
+    }
+}
+@media screen and (max-width: 650px){
+    .left{
+        width: 50%;
+    }
+}
+@media screen and (max-width:600px){
+    .p-menu{
+   display: inline-block;
+   
+    }
+
+}
